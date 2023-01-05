@@ -1,0 +1,41 @@
+
+body {
+	background-color: lavender;
+	font-family: "Segoe UI";
+
+}
+
+a
+{
+	text-decoration: none;
+	cursor: pointer;
+	color: blue;
+}
+
+table {
+	table-layout: auto;
+	width: 80%;
+	border: 1px solid gray;
+	border-spacing: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+thead {
+/*	background-color: #F1F7B5; */
+	text-align: center;
+}
+
+td {
+	font-weight: bold; 
+	white-space: nowrap;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 10px;
+	border: 1px solid blue;
+	border-radius:6px;
+	background-color: #A8D1D1;
+
+}
+
