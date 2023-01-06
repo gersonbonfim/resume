@@ -14,9 +14,9 @@ a
 
 table {
 	table-layout: auto;
-	width: 80%;
-	border: 1px solid gray;
-	border-spacing: 10px;
+	width: 60%;
+/*	border: 1px solid gray;
+	border-spacing: 10px; */
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -36,6 +36,8 @@ td {
 	border: 1px solid blue;
 	border-radius:6px;
 	background-color: #A8D1D1;
-
 }
 
+td:hover {
+  background-color: #39B5E0;
+}
