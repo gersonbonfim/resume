@@ -1,6 +1,7 @@
 
 body {
 	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	
 	/*
 		font-size: 16px; equal to 1em equal to 100%
 		font-size: 32px; equal to 2em equal to 200%	
@@ -46,6 +47,7 @@ thead {
 
 td {
 	border: 1px solid white;
+	font-size: 1rem;
 /*	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -66,12 +68,12 @@ span:hover {
 }
 
 .my_link {
-	background-color: #39B5E0;
-	font-weight: bold; 
+	background-color: lightblue;
+/*	font-weight: bold; */
 	text-align: center;
 	padding: 5px;
-	border: 2px solid blue;
-	border-radius: 8px;
+	border: 1px solid blue;
+	border-radius: 6px;
 	float: left;
 	margin: 4px;
 	
